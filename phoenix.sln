@@ -9,6 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "phoenix.domains", "phoenix.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5CDAEF87-13B3-4A19-BBC9-477BAC8F4F1D}"
 	ProjectSection(SolutionItems) = preProject
+		architecture\Phoenix Social Media Service - Cloud.png = architecture\Phoenix Social Media Service - Cloud.png
 		architecture\Phoenix Social Media Service.png = architecture\Phoenix Social Media Service.png
 	EndProjectSection
 EndProject
