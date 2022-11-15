@@ -1,4 +1,4 @@
-# phoenix
+# phoenix social
 Open source social media service that enables occupation, brand, and public square elements with self-moderation and paid advertising and features.
 
 ## Vision
