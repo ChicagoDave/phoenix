@@ -5,7 +5,7 @@ Open source social media service that enables occupation, brand, and public squa
 Phoenix Social will look very similar to Twitter with a few exceptions. All users would be rated with a "karma" attribute similar to Reddit and new accounts would have to earn karma to post media and links and to have posts viewable by more than their immediate followers. DM access would be restricted to accounts with a "high" level of karma. If an account has no followers, their only action is to follow and like posts, hoping other people see their bio and follow back.
 
 ### Accounts
-New accounts would request a handle and can verify that handle via a Twitter post with a given phrase. Once an account is created, the user can choose to be a public user or one of the official titles that would include Parody, Journalist, Politician, Government Employee, Corporate Brand, Corporate Officer, Corporate Employee, K-12 Teacher, College Professor, Police Officer, Governor, Mayor, United States Senator, United States Representative, State Senator (ST), State Representative (ST), Librarian, Firefighter, Lobbyist, Activist, Actor, Celebrity, Influencer, Artist, Poet, Author, Musician, and many more. Many of these would be paid accounts. Only Public User and verified public servent accounts are free (Journalist, K-12 Teacher, College Professor, Librarian, Police Office, etc)
+New accounts would request a handle and optionally verify that handle via a Twitter post with a given phrase (as long as Twitter stands, we will check for handles there and prevent re-use on our platform). Once an account is created, the user can choose to be a public user or one of the official titles that would include Parody, Journalist, Politician, Government Employee, Corporate Brand, Corporate Officer, Corporate Employee, K-12 Teacher, College Professor, Police Officer, Governor, Mayor, United States Senator, United States Representative, State Senator (ST), State Representative (ST), Librarian, Firefighter, Lobbyist, Activist, Actor, Celebrity, Influencer, Artist, Poet, Author, Musician, and many more. Many of these would be paid accounts. Only Public User and verified public servent accounts are free (Journalist, K-12 Teacher, College Professor, Librarian, Police Office, etc)
 
 Secondary titles of political party and nationality for some primary titles will be required
 
@@ -13,7 +13,7 @@ Secondary titles of political party and nationality for some primary titles will
 Users would not be able to change their handle. Each user can add a title to their account, though any change will go through an automated moderation process to prevent mischief. Parody accounts will be allowed, but the image will be hard-wired to show the picture of a clown and the title will be prefixed with "Parody:".
 
 ### Edit
-All accounts would be given 60 second edit capabilities on new posts. Significant changes to a post would be allowed, so only simple grammar and spelling changes would be appropriate.
+All accounts would be given 60 second edit capabilities on new posts. Significant changes to a post would not be allowed, so only simple grammar and spelling changes would be appropriate.
 
 ### Default algorithm would include:
 - the most recent posts of your "circle", which you'll be able to define by tagging people from 1-10 when you follow them. Your inner circle will be everyone you tag with a 1.
