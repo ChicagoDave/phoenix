@@ -18,6 +18,12 @@ Secondary labels of political party and nationality for some primary labels will
 Users would not be able to change their handle. Each user can add a title to their account, though any change will go through an automated moderation process to prevent mischief. Parody accounts will be allowed, but the image will be hard-wired to show the picture of a clown (a selection will be offerred) and the title will be prefixed with "Parody:". Titles would allow emojis and a wide Font selection.
 
 ### Free Capabilities
+
+### Followers
+Anyone can follow anyone as long as they meet the karma requirements of the account being followed. If you don't meet the requirements, you will be given an explanation, "This account requires a minimum Karma of 150 to be followed."
+
+When followed, the user has the option of blocking the follower or "leveling" them from (1-99) with 1 being a trusted follower and 99 being allowed, but not to be trusted. The user can set a default level. Levels will never be shown publically to other people.
+
 #### Posting, Replies, and Highlights
 The concept of a "retweet" will be replaced by "Highlight" which will act in the same manner.
 
@@ -26,7 +32,10 @@ All users will be able to post on their own timeline. Each posts can have a cust
 Users can reply and/or highlight others posts (with exceptions). Users can prevent/allow replies and highlights to their timeline by karma level and/or follower level.
 
 #### Edit
-All accounts would be given 60 second edit capabilities on new posts. Significant changes to a post would not be allowed, so only simple grammar and spelling changes would be appropriate.
+All accounts would be given 60 second edit capabilities on new posts. Significant changes to a post would not be allowed. Only simple grammar and spelling changes would be allowed.
+
+#### Deleting
+A user can delete any post at any time. Any replies or highlights will also be deleted, but a DM will be sent to the accounts that replied or highlighted that the original post has been deleted. There will be no broken branches in any timeline. Users have the right to control their timeline without exception.
 
 #### Default algorithm would include:
 - the most recent posts of your "circle", which you'll be able to define by tagging people from 1-10 when you follow them. Your inner circle will be everyone you tag with a 1.
@@ -41,11 +50,17 @@ Every U.S. citizen that provides their location (privately) would automatically 
 #### Verification
 - Must prove identity and if applicable, your title (if you're a journalist, we're going to vet you)
 
-#### Others
-- custom and alternate timeline buttons: user can define a search criteria and save it to labeled timeline button in the app, like "Favorite Teachers" or "My Inner Circle". The number of custom searches would be scaled by price within a montly subscription (the more custom timelines, the more you pay).
-- remove all but top ad
-- verification and title unless public servant
-- hide replies to posts from your timeline
+#### Custom Timelines
+Custom and alternate timeline buttons: user can define a search criteria and save it to labeled timeline button in the app, like "Favorite Teachers" or "My Inner Circle". The number of custom searches would be scaled by price within a montly subscription (the more custom timelines, the more you pay).
+
+#### Ad Removal
+Paid subscribers can remove all but top ad
+
+#### Verifications
+Verification is a paid feature unless the account holder is a verified public servant (including Journalist)
+
+### Deleting Replies and Highlights
+Paid users will have the ability to delete replies and highlights as they wish. The account that replied or highlighted will be notified by DM that this has happened. Again. Account holders will have explicit rights to maintain their timeline.
 
 ### Clients
 #### Mobile
