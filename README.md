@@ -2,7 +2,7 @@
 Open source social media service that enables occupation, brand, and public square elements with self-moderation and paid advertising and features.
 
 ## Vision
-Phoenix Social will look very similar to Twitter with a few exceptions. All users would be rated with a "karma" attribute similar to Reddit and new accounts would have to earn karma to post media and links and to have posts viewable by more than their immediate followers. DM access would be restricted to accounts with a "high" level of karma. If an account has no followers, their only action is to follow and like posts, hoping other people see their bio and follow back.
+Phoenix Social will look similar to Twitter with major changes and features. All users would be rated with a "karma" attribute similar to Reddit and new accounts would have to earn karma to post media and links and to have posts viewable by more than their immediate followers. DM access would be restricted to accounts with a "high" level of karma. If an account has no followers, their only action is to follow and like posts, hoping other people see their bio and follow back. Users will be able to manage multiple timelines with access to basic filtering and sorting capabilities. Paid accounts will have broader access to these tools.
 
 ### Accounts
 #### Creation
