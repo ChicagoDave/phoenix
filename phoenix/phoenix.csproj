@@ -11,4 +11,8 @@
     <PackageReference Include="Neo4j.Driver" Version="5.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\phoenix.domains\phoenix.domains.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using phoenix.domains;
+using System.ComponentModel;
 
 public class DriverIntroductionExample : IDisposable
 {
@@ -11,9 +13,10 @@ public class DriverIntroductionExample : IDisposable
 
     ~DriverIntroductionExample() => Dispose(false);
 
-    public DriverIntroductionExample(string uri, string user, string password)
+    public DriverIntroductionExample()
     {
-        _driver = GraphDatabase.Driver(uri, AuthTokens.Basic(user, password));
+        Settings.Load();
+        _driver = GraphDatabase.Driver(Settings.Neo4jSettings.neo4jURI, AuthTokens.Basic(Settings.Neo4jSettings.neo4jUser, Settings.Neo4jSettings.neo4jPassword));
     }
 
     public async Task CreateFriendship(string person1Name, string person2Name)
@@ -107,7 +110,7 @@ public class DriverIntroductionExample : IDisposable
         var user = "neo4j";
         var password = "G0CORAwnAjEFHG_W7Nrdn_SIYySeMFtERLOcJoeoW4I";
 
-        using var example = new DriverIntroductionExample(uri, user, password);
+        using var example = new DriverIntroductionExample();
         await example.CreateFriendship("David", "Sabrina");
         await example.FindPerson("Sabrina");
     }
