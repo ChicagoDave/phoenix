@@ -46,6 +46,9 @@ A user can delete any post at any time. Any replies or highlights will also be d
 
 Every U.S. citizen that provides their location (privately) would automatically have a secondary Government timeline that shows who their local, state, and federal representitives are and the posts from those accounts.
 
+### Creator Accounts
+Some users may garner a larger following and can earn ad dollars. Once an account hits a certain threshhold (TBD), Phoenix Social will begin to split ad revenue with such accounts. These accounts can also can promote partner brands (that are approved) and recieve 95% of the ad revenue. So yes, Phoenix will pay its users where appropriate.
+
 ### Subscription Features
 #### Verification
 - Must prove identity and if applicable, your title (if you're a journalist, we're going to vet you)
