@@ -104,12 +104,6 @@ public class DriverIntroductionExample : IDisposable
 
     public static async Task Main(string[] args)
     {
-        // Aura queries use an encrypted connection using the "neo4j+s" protocol
-        var uri = "neo4j+s://c5bf01d3.databases.neo4j.io";
-
-        var user = "neo4j";
-        var password = "G0CORAwnAjEFHG_W7Nrdn_SIYySeMFtERLOcJoeoW4I";
-
         using var example = new DriverIntroductionExample();
         await example.CreateFriendship("David", "Sabrina");
         await example.FindPerson("Sabrina");

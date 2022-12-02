@@ -18,6 +18,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "phoenix.lambda.posting", "p
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "phoenix.lambda.posting.Tests", "phoenix.lambda.posting.Tests\phoenix.lambda.posting.Tests.csproj", "{2FA9A432-512D-4DDE-9451-465BC7B3D8DA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "phoenix.lambda.registering", "phoenix.lambda.registering\phoenix.lambda.registering.csproj", "{3B1777B7-4D45-44F7-BAB6-520F0F7ED81F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "phoenix.lambda.registering.Tests", "phoenix.lambda.registering.Tests\phoenix.lambda.registering.Tests.csproj", "{AF6558D2-3B9A-4886-BA8A-4547A7F1E62F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lambdas", "Lambdas", "{E17B2366-3967-4ED3-9E6A-7444F28E5AAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{EF5295B1-E9A5-4E63-BFA2-B805D18BBCE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "phoenix.graph.repositories", "phoenix.graph.repositories\phoenix.graph.repositories.csproj", "{6529137F-1CCF-4A9B-916B-058D9EAEC994}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,9 +50,28 @@ Global
 		{2FA9A432-512D-4DDE-9451-465BC7B3D8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FA9A432-512D-4DDE-9451-465BC7B3D8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FA9A432-512D-4DDE-9451-465BC7B3D8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B1777B7-4D45-44F7-BAB6-520F0F7ED81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1777B7-4D45-44F7-BAB6-520F0F7ED81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1777B7-4D45-44F7-BAB6-520F0F7ED81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1777B7-4D45-44F7-BAB6-520F0F7ED81F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6558D2-3B9A-4886-BA8A-4547A7F1E62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6558D2-3B9A-4886-BA8A-4547A7F1E62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6558D2-3B9A-4886-BA8A-4547A7F1E62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6558D2-3B9A-4886-BA8A-4547A7F1E62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6529137F-1CCF-4A9B-916B-058D9EAEC994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6529137F-1CCF-4A9B-916B-058D9EAEC994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6529137F-1CCF-4A9B-916B-058D9EAEC994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6529137F-1CCF-4A9B-916B-058D9EAEC994}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23190B74-C3FA-4CDC-9C37-5D8E748DDB7B} = {E17B2366-3967-4ED3-9E6A-7444F28E5AAA}
+		{2FA9A432-512D-4DDE-9451-465BC7B3D8DA} = {E17B2366-3967-4ED3-9E6A-7444F28E5AAA}
+		{3B1777B7-4D45-44F7-BAB6-520F0F7ED81F} = {E17B2366-3967-4ED3-9E6A-7444F28E5AAA}
+		{AF6558D2-3B9A-4886-BA8A-4547A7F1E62F} = {E17B2366-3967-4ED3-9E6A-7444F28E5AAA}
+		{6529137F-1CCF-4A9B-916B-058D9EAEC994} = {EF5295B1-E9A5-4E63-BFA2-B805D18BBCE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0FDFE754-491F-4FE9-BAD5-76EA3EB276F0}

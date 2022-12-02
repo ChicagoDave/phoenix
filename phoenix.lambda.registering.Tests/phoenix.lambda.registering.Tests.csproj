@@ -7,13 +7,11 @@
   <ItemGroup>
     <PackageReference Include="Amazon.Lambda.Core" Version="2.1.0" />
     <PackageReference Include="Amazon.Lambda.TestUtilities" Version="2.0.0" />
-    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.100.27" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
-    <PackageReference Include="Neo4j.Driver" Version="5.2.0" />
     <PackageReference Include="xunit" Version="2.4.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\phoenix.lambda.posting\phoenix.lambda.posting.csproj" />
+    <ProjectReference Include="..\phoenix.lambda.registering\phoenix.lambda.registering.csproj" />
   </ItemGroup>
 </Project>
