@@ -11,9 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		architecture\Phoenix Social Media Service - Cloud.png = architecture\Phoenix Social Media Service - Cloud.png
 		architecture\Phoenix Social Media Service.png = architecture\Phoenix Social Media Service.png
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "phoenix.api", "phoenix.api\phoenix.api.csproj", "{B4F82345-51EF-449F-9544-7D224259A615}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "phoenix.lambda.posting", "phoenix.lambda.posting\phoenix.lambda.posting.csproj", "{23190B74-C3FA-4CDC-9C37-5D8E748DDB7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "phoenix.lambda.posting.Tests", "phoenix.lambda.posting.Tests\phoenix.lambda.posting.Tests.csproj", "{2FA9A432-512D-4DDE-9451-465BC7B3D8DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +32,14 @@ Global
 		{E13FE9DF-98E7-4BB8-9B8A-85FED7EBA364}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E13FE9DF-98E7-4BB8-9B8A-85FED7EBA364}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E13FE9DF-98E7-4BB8-9B8A-85FED7EBA364}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4F82345-51EF-449F-9544-7D224259A615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4F82345-51EF-449F-9544-7D224259A615}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4F82345-51EF-449F-9544-7D224259A615}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4F82345-51EF-449F-9544-7D224259A615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23190B74-C3FA-4CDC-9C37-5D8E748DDB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23190B74-C3FA-4CDC-9C37-5D8E748DDB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23190B74-C3FA-4CDC-9C37-5D8E748DDB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23190B74-C3FA-4CDC-9C37-5D8E748DDB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA9A432-512D-4DDE-9451-465BC7B3D8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA9A432-512D-4DDE-9451-465BC7B3D8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA9A432-512D-4DDE-9451-465BC7B3D8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA9A432-512D-4DDE-9451-465BC7B3D8DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
