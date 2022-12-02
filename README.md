@@ -77,3 +77,15 @@ Paid users will have the ability to delete replies and highlights as they wish. 
 ### Global and Localization
 #### Language
 - English to start and prove the model
+
+### Deployment Strategy
+#### Cutting Edge Web Assembly
+In the mid 2000's, Google published their Maps app built entirely on web technology. Up until that point, web based applications were delivered by server-rendered code with some minimal amount of JavaScript interactivity. Google used a mostly unknown capability to call microservices and interactively update the browser layout.
+
+This changed the way everyone built web applications and was the beginning of single page applications and the invention of RESTful web services.
+
+There are many directions future applications might be architectured, but it's our belief that Web Assembly will be the foundation of the next "Google Maps" type revolution.
+
+So Phoenix Social is going to bypass all of the native mobile technology and app stores by developing a Web Assembly based application. There are many reasons, including avoiding the fees and oversight associated with deploying to the app stores, but also simplifying our browser codebase.
+
+We'll need to push the envelope of what Web Assembly is capable of, but that's the direction we think browser based apps are going.
