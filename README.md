@@ -1,6 +1,14 @@
 # phoenix social
 Open source social media service that enables occupation, brand, and public square elements with self-moderation and paid advertising and features.
 
+## Collaboration Needs
+
+### Front-end design
+### Front-end developer with Web Assembly expertise
+### AWS Engineer preferably with Graph Database experience, specifically Neo4j
+### Board members
+### Funding with intent to inflate as a 503c - non-profit
+
 ## Vision
 Phoenix Social will look similar to Twitter with major changes and features. All users would be rated with a "karma" attribute similar to Reddit and new accounts would have to earn karma to post media and links and to have posts viewable by more than their immediate followers. DM access would be restricted to accounts with a "high" level of karma. If an account has no followers, their only action is to follow and like posts, hoping other people see their bio and follow back. Users will be able to manage multiple timelines with access to basic filtering and sorting capabilities. Paid accounts will have broader access to these tools.
 
