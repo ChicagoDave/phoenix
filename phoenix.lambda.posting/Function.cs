@@ -24,32 +24,32 @@ public class Function
         return input.ToUpper();
     }
 
-    public async Task FindPerson(string personName)
-    {
-        var query = @"
-        MATCH (p:Person)
-        WHERE p.name = $name
-        RETURN p.name";
+    //public async Task FindPerson(string personName)
+    //{
+    //    var query = @"
+    //    MATCH (p:Person)
+    //    WHERE p.name = $name
+    //    RETURN p.name";
 
-        await using var session = _driver.AsyncSession(configBuilder => configBuilder.WithDatabase("neo4j"));
-        try
-        {
-            var readResults = await session.ExecuteReadAsync(async tx =>
-            {
-                var result = await tx.RunAsync(query, new { name = personName });
-                return await result.ToListAsync();
-            });
+    //    await using var session = _driver.AsyncSession(configBuilder => configBuilder.WithDatabase("neo4j"));
+    //    try
+    //    {
+    //        var readResults = await session.ExecuteReadAsync(async tx =>
+    //        {
+    //            var result = await tx.RunAsync(query, new { name = personName });
+    //            return await result.ToListAsync();
+    //        });
 
-            foreach (var result in readResults)
-            {
-                Console.WriteLine($"Found person: {result["p.name"].As<String>()}");
-            }
-        }
-        // Capture any errors along with the query and data for traceability
-        catch (Neo4jException ex)
-        {
-            Console.WriteLine($"{query} - {ex}");
-            throw;
-        }
-    }
+    //        foreach (var result in readResults)
+    //        {
+    //            Console.WriteLine($"Found person: {result["p.name"].As<String>()}");
+    //        }
+    //    }
+    //    // Capture any errors along with the query and data for traceability
+    //    catch (Neo4jException ex)
+    //    {
+    //        Console.WriteLine($"{query} - {ex}");
+    //        throw;
+    //    }
+    //}
 }
